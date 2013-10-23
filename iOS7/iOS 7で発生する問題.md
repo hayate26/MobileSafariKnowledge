@@ -5,12 +5,18 @@ iOS 7で発生する問題
 
 ### Standaloneモードでステータスバーがコンテンツにかぶる ###
 
-"apple-mobile-web-app-status-bar-style"を指定しない、もしくは"default"指定した場合、iOS7ではフォントカラーが白で背景透明（コンテンツがまわりこむ）のステータスバーとなります。
-ページの背景やコンテンツによっては非常に見栄えが悪いので、考慮が必要。
+"apple-mobile-web-app-status-bar-style"の指定によってはステータスバーが視認できなくなる。
 
-#### 対策 ####
+** 指定なし or "default"： **  
+　ステータスバーの領域が黒一色で塗りつぶされる。
 
-"apple-mobile-web-app-status-bar-style"に、"black"を指定する。これでiOS 6までのDefaultと同じ見た目になる。
+** "black-translucent"： **  
+　フォント色が白で背景透明のステータスバーとなり、コンテンツが下にまわり込む。  
+　ページの背景やコンテンツによっては非常に見栄えが悪いので、考慮が必要。
+
+** "black"： **  
+　iOS 6までのDefaultと同じ見た目になる。黒背景に白文字。  
+　
 
 
 
