@@ -43,8 +43,3 @@ Portrait→Landscapeのローテーション時に、
 DocumentHeightが表示領域よりも大きくなり、ページの上部がSafariのUIの下に隠れる
 
 
-### ステータスバーがコンテンツの裏に隠れる（iOS 7.0.3） ###
-
-"apple-mobile-web-app-status-bar-style"を"black-translucent"と指定すると、ステータスバーがページの裏に隠れる。ページを下にスライドすると見えるが、指を離すとページがバウンスして戻るので隠れる。仕様？
-
-
