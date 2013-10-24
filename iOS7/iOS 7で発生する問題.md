@@ -46,3 +46,4 @@ Portrait→Landscapeのローテーション時に、
 DocumentHeightが表示領域よりも大きくなり、ページの上部がSafariのUIの下に隠れる
 
 
+### マルチタスク切替画面でStandaloneモードのWebアプリの向きが常にPortraitになる（〜 iOS 7.0.3） ###
