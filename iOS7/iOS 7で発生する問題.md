@@ -18,7 +18,9 @@ iOS 7で発生する問題
 　iOS 6までのDefaultと同じ見た目になる。黒背景に白文字。  
 　
 
+### SafariとStandaloneのCookieが別管理になった ###
 
+iOS 6まではSafariとStandalone間でCookieが共有されていたが、iOS 7ではそれぞれ個別の管理になっている様子。
 
 
 ## バグと思われる挙動 ##
