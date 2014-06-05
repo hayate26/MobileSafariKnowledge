@@ -26,7 +26,7 @@ iOS 6まではSafariとStandalone間でCookieが共有されていたが、iOS 7
 ## バグと思われる挙動 ##
 
 ### Standaloneモードでalertが表示されない（〜 iOS 7.0.3） ###
-デバッグする際は要注意
+デバッグする際は要注意  
 →iOS 7.1 で修正済み
 
 ### Standaloneモードでアプリ連携出来ない（〜 iOS 7.0.2） ###
@@ -46,7 +46,8 @@ iOS 6まではSafariとStandalone間でCookieが共有されていたが、iOS 7
 ### ローテーションするとページ上部がUIにめり込む（〜 iOS 7.0.3） ###
 
 Portrait→Landscapeのローテーション時に、
-DocumentHeightが表示領域よりも大きくなり、ページの上部がSafariのUIの下に隠れる
+DocumentHeightが表示領域よりも大きくなり、ページの上部がSafariのUIの下に隠れる  
+→iOS 7.1 で修正済み ただし、Landscape時にdocumentHeightが20px(CSS)長いのは直ってない
 
 
 ### マルチタスク切替画面でStandaloneモードのWebアプリの向きが常にPortraitになる（〜 iOS 7.0.3） ###
