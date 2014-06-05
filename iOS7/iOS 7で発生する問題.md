@@ -27,6 +27,7 @@ iOS 6まではSafariとStandalone間でCookieが共有されていたが、iOS 7
 
 ### Standaloneモードでalertが表示されない（〜 iOS 7.0.3） ###
 デバッグする際は要注意
+→iOS 7.1 で修正済み
 
 ### Standaloneモードでアプリ連携出来ない（〜 iOS 7.0.2） ###
 →iOS 7.0.3で修正された
@@ -49,3 +50,4 @@ DocumentHeightが表示領域よりも大きくなり、ページの上部がSaf
 
 
 ### マルチタスク切替画面でStandaloneモードのWebアプリの向きが常にPortraitになる（〜 iOS 7.0.3） ###
+→iOS 7.1 で修正済み
