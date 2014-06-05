@@ -18,9 +18,10 @@ iOS 7で発生する問題
 　iOS 6までのDefaultと同じ見た目になる。黒背景に白文字。  
 　
 
-### SafariとStandaloneのCookieが別管理になった ###
+### SafariとStandaloneのCookie、Storage、Cacheが別管理になった ###
 
-iOS 6まではSafariとStandalone間でCookieが共有されていたが、iOS 7ではそれぞれ個別の管理になっている様子。
+iOS 6まではSafariとStandalone間でCookieが共有されていたが、iOS 7ではそれぞれ個別の管理になっている様子。  
+StorageとCacheも同様
 
 
 ## バグと思われる挙動 ##
@@ -37,9 +38,9 @@ iOS 6まではSafariとStandalone間でCookieが共有されていたが、iOS 7
 →iOS 7.0.3で修正された
 
 
-### キーボード表示中にローテーションすると表示が崩れる（〜 iOS 7.0.3） ###
+### キーボード表示中にローテーションすると表示が崩れる（〜 iOS 7.1.1） ###
 
-ローテーション時に謎の黒い領域があらわれ、コンテンツが正しくレイアウトされない。
+ローテーション時に謎の黒い領域があらわれ、コンテンツが正しくレイアウトされない。  
 →standaloneモード かつ iOS7.0.3の場合のみ修正された様子
 
 
